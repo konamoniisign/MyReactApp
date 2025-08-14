@@ -37,7 +37,7 @@ const LoginScreen = ({ navigation }) => {
   Alert.alert('Login Success', 'You are logged in successfully!', [
     {
       text: 'Continue',
-      onPress: () => navigation.replace('Home'),
+      onPress: () => navigation.replace('Category'),
     },
   ]);
 };
